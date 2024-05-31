@@ -1,17 +1,17 @@
 
 
 h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: sans-serif;
 }
 
 p {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
 }
 
 h2 {
-    color: white;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -24,12 +24,13 @@ html, body {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #19171e;
+    background-color: hsl(0, 0%, 100%);
 }
 
+/* navigation bar code  */
 .navbar {
     overflow: hidden;
-    background-color: #121017;
+    background-color: #282828;
 }
 
 .navbar a {
@@ -43,18 +44,25 @@ body {
 
 .navbar a:hover {
     background-color: #4f4d4d;
-    color: black;
+    color: rgb(50, 50, 50);
 }
 
+/* Content code  */
 .header {
-    
-        max-width: 100%;
-        height: auto;
-        display: block;
-
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
-.header img{
+.header img {
     width: 100%;
-    height: 50%;
+    height: 60%;
+}
+
+.text-section {
+ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
