@@ -1,0 +1,114 @@
+/* Global styles */
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* navigation bar code  */
+.navbar {
+    overflow: hidden;
+    background-color: #282828;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #4f4d4d;
+    color: rgb(50, 50, 50);
+}
+
+/* thumbnail image  */
+
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.thumbnail-img {
+    width: 60%;
+    height: 40%;
+}
+
+/* origin story section code  */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0; /* Adjust this padding to control vertical spacing */
+}
+
+.about-content {
+    width: 50%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* revival scars code  */
+.scars-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0; /* Adjust this padding to control vertical spacing */
+}
+
+.scars-content {
+    width: 50%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* revival scars code  */
+.extra-notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0; /* Adjust this padding to control vertical spacing */
+}
+
+.extra-content {
+    width: 50%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
