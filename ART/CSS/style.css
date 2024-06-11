@@ -80,7 +80,7 @@ body {
 
 .panel {
     padding: 18px;
-    display: none;
+    display: none; /* This ensures that panels are hidden by default */
     background-color: white;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -90,6 +90,7 @@ body {
     flex-direction: column;
     text-align: center;
 }
+
 
 
 
